@@ -15,6 +15,12 @@ multiple versions of the PureScript compiler (similar to how `nvm` works for
 NodeJS). In order for it to work, you will have to add `~/.psvm/current/bin` to
 your path, and install/use a PureScript compiler (see `psvm --help` for details).
 
+```sh
+psvm install v0.13.6
+psvm use v0.13.6
+~/.psvm/current/bin/purs --version
+```
+
 Alternatively, you can grab `PureScript` binaries manually from the PureScript
 repository (https://github.com/purescript/purescript) or build it from source.
 
